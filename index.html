@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+</head>
+
+<body bgcolor="lightgreen">
+
+   <b><center> <script>
+   
+   
+            var d = new Date();
+            var t = d.getHours();
+
+            if(t<12 )
+        {
+            document.write("GOOD MORNING!");
+        }
+
+      
+
+        else if(t>12 && t<=16)
+        {
+            document.write("GOOD AFTERNOON!");
+        }
+
+        else if(t>16 && t<=20)
+        {
+            document.write("GOOD EVENING!");
+        }
+
+        else 
+        {
+            document.write("GOOD NIGHT!");
+        }
+        
+    </script> </center>
+
+
+<center><script>
+    var d = new Date();
+    var day = d.getDay();
+    switch (day) {
+        case 1:
+            document.write("It's MONDAY");
+            break;
+
+            document.write("It's TUESDAY");
+            break;
+
+        case 3:
+            document.write("It's WEDNESDAY");
+            break;
+
+        case 4:
+            document.write("It's THURSDAY");
+            break;
+
+        case 5:
+            document.write("It's FRIDAY");
+            break;
+
+        case 6:
+            document.write("It's SATURDAY");
+            break;
+
+        case 0:
+            document.write("It's SUNDAY");
+            break;
+
+    }
+
+</script></center></b>
+
+
+    <h1 align="center">
+        <font face="algerian"><i>PSK TECHNOLOGIES PVT.LTD</i></font>
+    </h1>
+    <br><br>
+    <h2 align="center">
+        <font face="algerian"><i>EMS</font></i>
+    </h2>
+    <hr>
+    <br><br>
+    <table align="center">
+        <tr>
+            <td><a href="studentlogin.html"><input type="button" value="STUDENT"></td>
+            <td><a href="trainerlogin.html"><input type="button" value="TRAINER"></td>
+            <td><a href="employeelogin.html"><input type="button" value="EMPLOYEE"></td>
+        </tr>
+        <tr>
+            <td><a href="studentsignup.html"><input type="button" value="SIGNUP"></td>
+            <td><a href="trainersignup.html"><input type="button" value="SIGNUP"></td>
+            <td><a href="employeesignup.html"><input type="button" value="SIGNUP"></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
